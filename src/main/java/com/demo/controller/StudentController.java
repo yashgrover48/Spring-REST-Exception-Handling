@@ -43,7 +43,7 @@ public class StudentController {
 	public Student getStudent(@PathVariable int studentId){
 		
 		// just index it into the list.. keep it simple for now
-		System.out.println("Inside getStudent in StudentController");
+		System.out.println("Inside getStudent in StudentController for getting students");
 		System.out.println("studentIs id: " + studentId);
 		// check the studentId against list size
 		if((studentId>=theStudents.size())||(studentId<0)){
